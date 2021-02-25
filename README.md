@@ -4,7 +4,6 @@
 
 This is a configuration example for the [ATLAS Real-Time Localization System (RTLS)](https://github.com/tudo-cni-atlas/atlas_rtls/). 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2579940.svg)](https://doi.org/10.5281/zenodo.2579940)
 
 Utilizing cascaded multi-hop clock synchronization in combination with the *Dynamic Best Link Discovery* and *Predictive Zone Selection*, continuous localization is enabled in an NLOS multi-zone environment. 
 
