@@ -1,0 +1,27 @@
+# Default configurations for tags
+fast:
+  cafe060043121032:
+    enable: true
+    sync_frequency: 12
+    transmit_frequency: 6
+
+  cafe060043042148:
+    enable: true
+    sync_frequency: 12
+    transmit_frequency: 6
+
+  cafe060043045445:
+    enable: true
+    sync_frequency: 12
+    transmit_frequency: 6
+
+  cafe060043045146:
+    enable: true
+    sync_frequency: 12
+    transmit_frequency: 6
+
+  cafe060043121448:
+    enable: true
+    sync_frequency: 12
+    transmit_frequency: 6
+

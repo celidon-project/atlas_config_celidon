@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="namespace" default="atlas/anchor/" />
+    <group ns="$(arg namespace)">
+        <node pkg="atlas_node_bridge" name="cafe030000000001" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000002" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000003" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000004" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000005" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000006" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000007" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000008" type="atlas_node_bridge_node" output="screen"></node>
+        <!-- <node pkg="atlas_node_bridge" name="cafe030000000009" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000010" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000011" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000012" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe030000000013" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000014" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000015" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000016" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000017" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe030000000018" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000019" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000020" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000021" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe030000000022" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000023" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000024" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe030000000025" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000026" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000027" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000028" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe030000000029" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000030" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000031" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000032" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000033" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe030000000034" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000035" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000036" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000037" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe030000000038" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000039" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000040" type="atlas_node_bridge_node" output="screen"></node> -->
+    </group>
+</launch>

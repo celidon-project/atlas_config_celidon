@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+	<rosparam ns="atlas/loc" command="load" file="$(find atlas_config_celidon)/config/loc.yaml"/>
+    <node name="loc" ns="atlas/" pkg="atlas_loc" type="atlas_loc_node" output="screen"/>
+</launch>

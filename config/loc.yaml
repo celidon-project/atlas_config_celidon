@@ -1,0 +1,45 @@
+# extended kalman filter configuration
+# choose if 2D or 3D by setting dimensions to either 2 or 3
+ekf:
+    dimensions: 2
+    processNoise: 4.8
+    measurementVariance: 0.001
+    initialInterval: 0.01
+    initialVarianceDelta: 100.0
+    initialVariance: 100.0
+    initialPosition: [0, 0, 5.0]
+    outlierThreshold: 20.0
+    outlierThresholdDelta: 0.5
+    imu: False
+    sqd: False
+    minX: -0.1
+    maxX: 15
+    minY: -0.1
+    maxY: 15
+    minZ: 4.5
+    maxZ: 5.5
+
+orientationOffset: [0.0, 0.0, 2.0] # Tait-Bryan Euler angle in rad
+
+whitelist:
+    #- cafe060043121032
+    - cafe060043042148
+    #- cafe060043045445
+    #- cafe060043045146
+    #- cafe060043121448
+
+#enable and configure Predictive Zone Selection
+pzs: true
+
+cellBounds: [0.0, 12, 0.0, 12, 0.0, 3.5,    # x0, x1, y0, y1, z0, z1
+             0.0, 3.9, 5.4, 9, 3.5, 6.5,
+             0.0, 5.4, 0, 5.4, 3.5, 6.5,
+             3.9, 6.8, 5.4, 9, 3.5, 6.5,
+             6.8, 12, 5.2, 9, 3.5, 6.5,
+             0.0, 3.9, 5.4, 9, 6.5, 10.0,
+             0.0, 5.4, 0, 5.4, 6.5, 10.0,
+             3.9, 6.8, 5.4, 9, 6.5, 10.0,
+             6.8, 12, 5.2, 9, 6.5, 10.0]
+
+cellsPerZone: 2
+

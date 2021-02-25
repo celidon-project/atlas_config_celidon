@@ -1,0 +1,219 @@
+# Lab config for the multi-room setup
+
+dbld: false # enable Dynamic Best Link Discovery
+
+channelConfig: 9
+tdoa:
+    slotDuration: 0x1dc13
+    syncPeriod: 0x6 # 2^6 slotdurations --> 32Hz
+
+anchor:
+  cafe030000000001:
+    port: /dev/ttyATLAS01
+    mode: 3
+    tdoaSyncEui: cafe030000000001
+    tdoaSyncOffset: 0
+    randomAccessSlots: 4
+  cafe020000000002:
+    port: /dev/ttyATLAS02
+    mode: 2
+    tdoaSyncEui: cafe030000000001
+    tdoaSyncOffset: 0
+  cafe020000000003:
+    port: /dev/ttyATLAS03
+    mode: 2
+    tdoaSyncEui: cafe030000000001
+    tdoaSyncOffset: 0
+  cafe020000000004:
+    port: /dev/ttyATLAS04
+    mode: 2
+    tdoaSyncEui: cafe030000000001
+    tdoaSyncOffset: 0
+  cafe020000000005:
+    port: /dev/ttyATLAS05
+    mode: 2
+    tdoaSyncEui: cafe030000000001
+    tdoaSyncOffset: 0
+  cafe020000000006:
+    port: /dev/ttyATLAS06
+    mode: 2
+    tdoaSyncEui: cafe030000000001
+    tdoaSyncOffset: 0
+  cafe020000000007:
+    port: /dev/ttyATLAS07
+    mode: 2
+    tdoaSyncEui: cafe030000000001
+    tdoaSyncOffset: 0        
+  cafe020000000008:
+    port: /dev/ttyATLAS08
+    mode: 2
+    tdoaSyncEui: cafe030000000001
+    tdoaSyncOffset: 0
+  cafe030000000009:
+    port: /dev/ttyATLAS09
+    mode: 3
+    tdoaSyncEui: cafe030000000018
+    tdoaSyncOffset: 15
+    randomAccessSlots: 4
+  cafe020000000010:
+    port: /dev/ttyATLAS10
+    mode: 2
+    tdoaSyncEui: cafe030000000009
+    tdoaSyncOffset: 0
+  cafe020000000011:
+    port: /dev/ttyATLAS11
+    mode: 2
+    tdoaSyncEui: cafe030000000009
+    tdoaSyncOffset: 0        
+  cafe020000000012:
+    port: /dev/ttyATLAS12
+    mode: 2
+    tdoaSyncEui: cafe030000000009
+    tdoaSyncOffset: 0
+  cafe030000000013:
+    port: /dev/ttyATLAS13
+    mode: 3
+    tdoaSyncEui: cafe030000000018
+    tdoaSyncOffset: 31
+    randomAccessSlots: 4
+  cafe020000000014:
+    port: /dev/ttyATLAS14
+    mode: 2
+    tdoaSyncEui: cafe030000000013
+    tdoaSyncOffset: 0
+  cafe020000000015:
+    port: /dev/ttyATLAS15
+    mode: 2
+    tdoaSyncEui: cafe030000000013
+    tdoaSyncOffset: 0
+  cafe020000000016:
+    port: /dev/ttyATLAS16
+    mode: 2
+    tdoaSyncEui: cafe030000000013
+    tdoaSyncOffset: 0
+  cafe020000000017:
+    port: /dev/ttyATLAS17
+    mode: 2
+    tdoaSyncEui: cafe030000000018
+    tdoaSyncOffset: 0        
+  cafe030000000018:
+    port: /dev/ttyATLAS18
+    mode: 3
+    tdoaSyncEui: cafe030000000018
+    tdoaSyncOffset: 0
+    randomAccessSlots: 4
+  cafe020000000019:
+    port: /dev/ttyATLAS19
+    mode: 2
+    tdoaSyncEui: cafe030000000018
+    tdoaSyncOffset: 0
+  cafe020000000020:
+    port: /dev/ttyATLAS20
+    mode: 2
+    tdoaSyncEui: cafe030000000018
+    tdoaSyncOffset: 0
+  cafe020000000021:
+    port: /dev/ttyATLAS21
+    mode: 2
+    tdoaSyncEui: cafe030000000022
+    tdoaSyncOffset: 0        
+  cafe030000000022:
+    port: /dev/ttyATLAS22
+    mode: 3
+    tdoaSyncEui: cafe030000000018
+    tdoaSyncOffset: 47
+    randomAccessSlots: 4
+  cafe020000000023:
+    port: /dev/ttyATLAS23
+    mode: 2
+    tdoaSyncEui: cafe030000000022
+    tdoaSyncOffset: 0
+  cafe020000000024:
+    port: /dev/ttyATLAS24
+    mode: 2
+    tdoaSyncEui: cafe030000000022
+    tdoaSyncOffset: 0
+  cafe030000000025:
+    port: /dev/ttyATLAS25
+    mode: 3
+    tdoaSyncEui: cafe030000000034
+    tdoaSyncOffset: 15
+    randomAccessSlots: 4
+  cafe020000000026:
+    port: /dev/ttyATLAS26
+    mode: 2
+    tdoaSyncEui: cafe030000000025
+    tdoaSyncOffset: 0
+  cafe020000000027:
+    port: /dev/ttyATLAS27
+    mode: 2
+    tdoaSyncEui: cafe030000000025
+    tdoaSyncOffset: 0
+  cafe020000000028:
+    port: /dev/ttyATLAS28
+    mode: 2
+    tdoaSyncEui: cafe030000000025
+    tdoaSyncOffset: 0
+  cafe030000000029:
+    port: /dev/ttyATLAS29
+    mode: 3
+    tdoaSyncEui: cafe030000000034
+    tdoaSyncOffset: 31
+    randomAccessSlots: 4
+  cafe020000000030:
+    port: /dev/ttyATLAS30
+    mode: 2
+    tdoaSyncEui: cafe030000000029
+    tdoaSyncOffset: 0
+  cafe020000000031:
+    port: /dev/ttyATLAS31
+    mode: 2
+    tdoaSyncEui: cafe030000000029
+    tdoaSyncOffset: 0
+  cafe020000000032:
+    port: /dev/ttyATLAS32
+    mode: 2
+    tdoaSyncEui: cafe030000000029
+    tdoaSyncOffset: 0
+  cafe020000000033:
+    port: /dev/ttyATLAS33
+    mode: 2
+    tdoaSyncEui: cafe030000000034
+    tdoaSyncOffset: 0
+  cafe030000000034:
+    port: /dev/ttyATLAS34
+    mode: 3
+    tdoaSyncEui: cafe030000000034
+    tdoaSyncOffset: 0
+    randomAccessSlots: 4
+  cafe020000000035:
+    port: /dev/ttyATLAS35
+    mode: 2
+    tdoaSyncEui: cafe030000000034
+    tdoaSyncOffset: 0
+  cafe020000000036:
+    port: /dev/ttyATLAS36
+    mode: 2
+    tdoaSyncEui: cafe030000000034
+    tdoaSyncOffset: 0
+  cafe020000000037:
+    port: /dev/ttyATLAS37
+    mode: 2
+    tdoaSyncEui: cafe030000000038
+    tdoaSyncOffset: 0
+  cafe030000000038:
+    port: /dev/ttyATLAS38
+    mode: 3
+    tdoaSyncEui: cafe030000000034
+    tdoaSyncOffset: 47
+    randomAccessSlots: 4
+  cafe020000000039:
+    port: /dev/ttyATLAS39
+    mode: 2
+    tdoaSyncEui: cafe030000000038
+    tdoaSyncOffset: 0
+  cafe020000000040:
+    port: /dev/ttyATLAS40
+    mode: 2
+    tdoaSyncEui: cafe030000000038
+    tdoaSyncOffset: 0
