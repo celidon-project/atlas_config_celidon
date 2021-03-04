@@ -7,7 +7,7 @@ ekf:
     initialInterval: 0.01
     initialVarianceDelta: 100.0
     initialVariance: 100.0
-    initialPosition: [0, 0, 5.0]
+    initialPosition: [0, 0, 10.0]
     outlierThreshold: 20.0
     outlierThresholdDelta: 0.5
     imu: False
@@ -16,30 +16,33 @@ ekf:
     maxX: 15
     minY: -0.1
     maxY: 15
-    minZ: 4.5
-    maxZ: 5.5
+    minZ: 0.0
+    maxZ: 5.00
 
 orientationOffset: [0.0, 0.0, 2.0] # Tait-Bryan Euler angle in rad
 
 whitelist:
-    #- cafe060043121032
+    - cafe060043121032
     - cafe060043042148
-    #- cafe060043045445
-    #- cafe060043045146
-    #- cafe060043121448
+    - cafe060043045445
+    - cafe060043045146
+    - cafe060043121448
 
 #enable and configure Predictive Zone Selection
 pzs: true
 
-cellBounds: [0.0, 12, 0.0, 12, 0.0, 3.5,    # x0, x1, y0, y1, z0, z1
-             0.0, 3.9, 5.4, 9, 3.5, 6.5,
-             0.0, 5.4, 0, 5.4, 3.5, 6.5,
-             3.9, 6.8, 5.4, 9, 3.5, 6.5,
-             6.8, 12, 5.2, 9, 3.5, 6.5,
-             0.0, 3.9, 5.4, 9, 6.5, 10.0,
-             0.0, 5.4, 0, 5.4, 6.5, 10.0,
-             3.9, 6.8, 5.4, 9, 6.5, 10.0,
-             6.8, 12, 5.2, 9, 6.5, 10.0]
+cellBounds: # x0, x1,  y0, y1,  z0,  z1 
+            [0.0, 12, 0.0, 12, 0.0, 3.5,    # Ground floor
+             0.0, 3.9, 5.4, 9, 3.5, 6.5,    # 1st floor
+             0.0, 5.4, 0, 5.4, 3.5, 6.5,    #     "
+             3.9, 6.8, 5.4, 9, 3.5, 6.5,    #     "
+             6.8, 12, 5.2, 9, 3.5, 6.5,     #     "
+             0.0, 3.9, 5.4, 9, 6.5, 10.0,   # 2nd floor
+             0.0, 5.4, 0, 5.4, 6.5, 10.0,   #     "
+             3.9, 6.8, 5.4, 9, 6.5, 10.0,   #     "
+             6.8, 12, 5.2, 9, 6.5, 10.0]    #     "
 
 cellsPerZone: 2
+
+fixedZ: [2.0, 5.5, 9.0] # set fixed z for each level in 2D mode
 
