@@ -7,7 +7,7 @@ ekf:
     initialInterval: 0.01
     initialVarianceDelta: 100.0
     initialVariance: 100.0
-    initialPosition: [0, 0, 10.0]
+    initialPosition: [3.0, 3.0, 10.0]
     outlierThreshold: 20.0
     outlierThresholdDelta: 0.5
     imu: False
@@ -17,7 +17,7 @@ ekf:
     minY: -0.1
     maxY: 15
     minZ: 0.0
-    maxZ: 5.00
+    maxZ: 15.00
 
 orientationOffset: [0.0, 0.0, 2.0] # Tait-Bryan Euler angle in rad
 

@@ -1,6 +1,6 @@
 # Lab config for the multi-room setup
 
-dbld: false # enable Dynamic Best Link Discovery
+dbld: true # enable Dynamic Best Link Discovery
 
 channelConfig: 9
 tdoa:
@@ -136,7 +136,7 @@ anchor:
   cafe030000000025:
     port: /dev/ttyATLAS25
     mode: 3
-    tdoaSyncEui: cafe030000000034
+    tdoaSyncEui: cafe030000000025
     tdoaSyncOffset: 15
     randomAccessSlots: 4
   cafe020000000026:
@@ -157,7 +157,7 @@ anchor:
   cafe030000000029:
     port: /dev/ttyATLAS29
     mode: 3
-    tdoaSyncEui: cafe030000000034
+    tdoaSyncEui: cafe030000000025
     tdoaSyncOffset: 31
     randomAccessSlots: 4
   cafe020000000030:
@@ -183,7 +183,7 @@ anchor:
   cafe030000000034:
     port: /dev/ttyATLAS34
     mode: 3
-    tdoaSyncEui: cafe030000000034
+    tdoaSyncEui: cafe030000000025
     tdoaSyncOffset: 0
     randomAccessSlots: 4
   cafe020000000035:
@@ -204,7 +204,7 @@ anchor:
   cafe030000000038:
     port: /dev/ttyATLAS38
     mode: 3
-    tdoaSyncEui: cafe030000000034
+    tdoaSyncEui: cafe030000000025
     tdoaSyncOffset: 47
     randomAccessSlots: 4
   cafe020000000039:
