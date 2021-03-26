@@ -4,24 +4,29 @@ fast:
     enable: true
     sync_frequency: 12
     transmit_frequency: 6
+    alias: '10-1F'
 
   cafe060043042148:
     enable: true
     sync_frequency: 12
     transmit_frequency: 6
+    alias: '10-1M'
 
   cafe060043045445:
     enable: true
     sync_frequency: 12
     transmit_frequency: 6
+    alias: '10-2M'
 
   cafe060043045146:
     enable: true
     sync_frequency: 12
     transmit_frequency: 6
+    alias: '10-3M'
 
   cafe060043121448:
     enable: true
     sync_frequency: 12
     transmit_frequency: 6
+    alias: '10-4M'
 
