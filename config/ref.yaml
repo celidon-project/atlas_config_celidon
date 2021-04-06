@@ -1,8 +1,11 @@
 ref:
   reference-a:
-    pos: [0, 0.26, 1.52]
-    yaw: 90
+    pos: [0, 0.27, 1.54]
+    yaw: 0
   reference-b:
     # 0.75m below box of cafe020000000015
     pos: [0, 0.2, 5.35]
     yaw: 90
+  reference-c:
+    pos: [5.0, 6.34, 1.53]
+    yaw: 180

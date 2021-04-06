@@ -37,4 +37,4 @@ cellBounds: # x0, x1,  y0, y1,  z0,  z1
 
 cellsPerZone: 2
 
-fixedZ: [2.0, 5.5, 9.0] # set fixed z for each level in 2D mode
+fixedZ: [1.85, 5.35, 8.85] # set fixed z for each level in 2D mode

@@ -2,31 +2,42 @@
 fast:
   cafe060043121032:
     enable: true
-    sync_frequency: 12
+    sync_frequency: 14
     transmit_frequency: 6
     alias: '10-1F'
 
   cafe060043042148:
     enable: true
-    sync_frequency: 12
+    sync_frequency: 14
     transmit_frequency: 6
     alias: '10-1M'
 
   cafe060043045445:
     enable: true
-    sync_frequency: 12
+    sync_frequency: 14
     transmit_frequency: 6
     alias: '10-2M'
 
   cafe060043045146:
     enable: true
-    sync_frequency: 12
+    sync_frequency: 14
     transmit_frequency: 6
     alias: '10-3M'
 
   cafe060043121448:
     enable: true
-    sync_frequency: 12
+    sync_frequency: 14
     transmit_frequency: 6
     alias: '10-4M'
 
+  deca000000009640:
+    enable: false
+    sync_frequency: 14
+    transmit_frequency: 6
+    alias: 'AOA-1'
+
+  deca000000000100:
+    enable: false
+    sync_frequency: 14
+    transmit_frequency: 6
+    alias: 'AOA-2'
