@@ -11,13 +11,15 @@ Utilizing cascaded multi-hop clock synchronization in combination with the *Dyna
 
 The source code of the localization system is released under [BSD 3-Clause license](LICENSE).
 
-**Authors:** Janis Tiemann, Yehya Elmasry, Johannes Friedrich
+**Authors:** Janis Tiemann and Johannes Friedrich
 
 **Maintainer:** Janis Tiemann, janis.tiemann@tu-dortmund.de
 
 **Affiliation:** Communication Networks Institute (CNI), TU Dortmund University
 
-The atlas_config_celidon package has been tested under [ROS] Kinetic and Ubuntu 16.04. This is research code, expect that it changes often and any fitness for a particular purpose is disclaimed.
+The atlas_config_celidon package has been tested under [ROS] Kinetic and Ubuntu 18.04. This is research code, expect that it changes often and any fitness for a particular purpose is disclaimed.
+
+<img src="apng/example.apng">
 
 ## Installation
 
@@ -52,12 +54,12 @@ Load the required config files:
 	roslaunch atlas_config_celidon config.launch
 
 
-Start the ATLAS core node (Taking the TOA messages and performing TDOA sample assembly):
+Start the ATLAS core node with *Dynamic Best Link Discovery* (Taking the TOA messages and performing TDOA sample assembly):
 
 	source devel/setup.bash
 	roslaunch atlas_config_celidon core.launch
 
-Start the ATLAS localization node(s) (Taking the TDOA samples and calculating positions):
+Start the ATLAS localization node(s) with *Predictive Zone Selection* (Taking the TDOA samples and calculating positions):
 
 	source devel/setup.bash
 	roslaunch atlas_config_celidon localizer.launch
