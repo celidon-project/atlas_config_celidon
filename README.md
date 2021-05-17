@@ -19,7 +19,7 @@ The source code of the localization system is released under [BSD 3-Clause licen
 
 The atlas_config_celidon package has been tested under [ROS] Kinetic and Ubuntu 18.04. This is research code, expect that it changes often and any fitness for a particular purpose is disclaimed.
 
-<img src="apng/example.apng">
+<img src="apng/example1.apng">
 
 ## Installation
 
