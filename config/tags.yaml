@@ -34,10 +34,16 @@ fast:
     enable: false
     sync_frequency: 14
     transmit_frequency: 6
-    alias: 'AOA-1'
+    alias: 'TAG-1'
+
+  deca000000009740:
+    enable: false
+    sync_frequency: 14
+    transmit_frequency: 6
+    alias: 'TAG-2'
 
   deca000000000100:
     enable: false
     sync_frequency: 14
     transmit_frequency: 6
-    alias: 'AOA-2'
+    alias: 'PDOA-1'

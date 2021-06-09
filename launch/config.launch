@@ -4,4 +4,5 @@
     <rosparam ns="atlas/" command="load" file="$(find atlas_config_celidon)/config/pos.yaml"/>
 	<rosparam ns="atlas/" command="load" file="$(find atlas_config_celidon)/config/tags.yaml"/>
     <rosparam ns="atlas/" command="load" file="$(find atlas_config_celidon)/config/slots.yaml"/>
+    <rosparam ns="atlas/" command="load" file="$(find atlas_config_celidon)/config/ref.yaml"/>
 </launch>

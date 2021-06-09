@@ -20,6 +20,7 @@ then
   tmux split-window -v -p 50
 
   tmux select-pane -t 4
+  tmux split-window -v -p 85
   tmux split-window -v -p 83
   tmux split-window -v -p 80
   tmux split-window -v -p 75
@@ -73,24 +74,31 @@ then
   sleep 0.1
   tmux send-keys 'source ' $SETUP_BASH_PATH 'C-m' 
   sleep 0.1   
-  tmux send-keys 'roslaunch launch/core.launch'
+  tmux send-keys 'roslaunch launch/node_bridge_gfl.launch'
   sleep 0.1
 
   tmux select-pane -t 8
   sleep 0.1
   tmux send-keys 'source ' $SETUP_BASH_PATH 'C-m' 
   sleep 0.1   
-  tmux send-keys 'roslaunch launch/fast_node.launch'
+  tmux send-keys 'roslaunch launch/core.launch'
   sleep 0.1
 
   tmux select-pane -t 9
+  sleep 0.1
+  tmux send-keys 'source ' $SETUP_BASH_PATH 'C-m' 
+  sleep 0.1   
+  tmux send-keys 'roslaunch launch/fast_node.launch'
+  sleep 0.1
+
+  tmux select-pane -t 10
   sleep 0.1
   tmux send-keys 'source ' $SETUP_BASH_PATH 'C-m' 
   sleep 0.1  
   tmux send-keys 'roslaunch launch/localizer.launch'
   sleep 0.1
 
-  tmux select-pane -t 10
+  tmux select-pane -t 11
   sleep 0.1
   tmux send-keys 'source ' $SETUP_BASH_PATH 'C-m' 
   sleep 0.1  

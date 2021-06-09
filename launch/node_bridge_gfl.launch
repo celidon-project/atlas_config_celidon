@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="namespace" default="atlas/anchor/" />
+    <group ns="$(arg namespace)">
+        <node pkg="atlas_node_bridge" name="cafe030000000041" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000042" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000043" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000044" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000045" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000046" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000047" type="atlas_node_bridge_node" output="screen"></node>
+        <node pkg="atlas_node_bridge" name="cafe020000000048" type="atlas_node_bridge_node" output="screen"></node>
+    </group>
+</launch>

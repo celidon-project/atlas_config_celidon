@@ -217,3 +217,44 @@ anchor:
     mode: 2
     tdoaSyncEui: cafe030000000038
     tdoaSyncOffset: 0
+  cafe030000000041:
+    port: /dev/ttyATLAS41
+    mode: 3
+    tdoaSyncEui: cafe030000000041
+    tdoaSyncOffset: 0
+    randomAccessSlots: 4
+  cafe020000000042:
+    port: /dev/ttyATLAS42
+    mode: 2
+    tdoaSyncEui: cafe030000000041
+    tdoaSyncOffset: 0
+  cafe020000000043:
+    port: /dev/ttyATLAS43
+    mode: 2
+    tdoaSyncEui: cafe030000000041
+    tdoaSyncOffset: 0
+  cafe020000000044:
+    port: /dev/ttyATLAS44
+    mode: 2
+    tdoaSyncEui: cafe030000000041
+    tdoaSyncOffset: 0
+  cafe020000000045:
+    port: /dev/ttyATLAS45
+    mode: 2
+    tdoaSyncEui: cafe030000000041
+    tdoaSyncOffset: 0
+  cafe020000000046:
+    port: /dev/ttyATLAS46
+    mode: 2
+    tdoaSyncEui: cafe030000000041
+    tdoaSyncOffset: 0
+  cafe020000000047:
+    port: /dev/ttyATLAS47
+    mode: 2
+    tdoaSyncEui: cafe030000000041
+    tdoaSyncOffset: 0        
+  cafe020000000048:
+    port: /dev/ttyATLAS48
+    mode: 2
+    tdoaSyncEui: cafe030000000041
+    tdoaSyncOffset: 0

@@ -43,14 +43,14 @@ sleep 1s
 (socat -d -d PTY,link="/dev/ttyATLAS38",raw,echo=0 tcp:kn-celidon-10.local:8038,nodelay)&
 (socat -d -d PTY,link="/dev/ttyATLAS39",raw,echo=0 tcp:kn-celidon-10.local:8039,nodelay)&
 (socat -d -d PTY,link="/dev/ttyATLAS40",raw,echo=0 tcp:kn-celidon-10.local:8040,nodelay)&
-# (socat -d -d PTY,link="/dev/ttyATLAS41",raw,echo=0 tcp:kn-celidon-11.local:8041,nodelay)&
-# (socat -d -d PTY,link="/dev/ttyATLAS42",raw,echo=0 tcp:kn-celidon-11.local:8042,nodelay)&
-# (socat -d -d PTY,link="/dev/ttyATLAS43",raw,echo=0 tcp:kn-celidon-11.local:8043,nodelay)&
-# (socat -d -d PTY,link="/dev/ttyATLAS44",raw,echo=0 tcp:kn-celidon-11.local:8044,nodelay)&
-# (socat -d -d PTY,link="/dev/ttyATLAS45",raw,echo=0 tcp:kn-celidon-12.local:8045,nodelay)&
-# (socat -d -d PTY,link="/dev/ttyATLAS46",raw,echo=0 tcp:kn-celidon-12.local:8046,nodelay)&
-# (socat -d -d PTY,link="/dev/ttyATLAS47",raw,echo=0 tcp:kn-celidon-12.local:8047,nodelay)&
-# (socat -d -d PTY,link="/dev/ttyATLAS48",raw,echo=0 tcp:kn-celidon-12.local:8048,nodelay)&
+(socat -d -d PTY,link="/dev/ttyATLAS41",raw,echo=0 tcp:kn-celidon-11.local:8041,nodelay)&
+(socat -d -d PTY,link="/dev/ttyATLAS42",raw,echo=0 tcp:kn-celidon-11.local:8042,nodelay)&
+(socat -d -d PTY,link="/dev/ttyATLAS43",raw,echo=0 tcp:kn-celidon-11.local:8043,nodelay)&
+(socat -d -d PTY,link="/dev/ttyATLAS44",raw,echo=0 tcp:kn-celidon-11.local:8044,nodelay)&
+(socat -d -d PTY,link="/dev/ttyATLAS45",raw,echo=0 tcp:kn-celidon-12.local:8045,nodelay)&
+(socat -d -d PTY,link="/dev/ttyATLAS46",raw,echo=0 tcp:kn-celidon-12.local:8046,nodelay)&
+(socat -d -d PTY,link="/dev/ttyATLAS47",raw,echo=0 tcp:kn-celidon-12.local:8047,nodelay)&
+(socat -d -d PTY,link="/dev/ttyATLAS48",raw,echo=0 tcp:kn-celidon-12.local:8048,nodelay)&
 sleep 1s
 
 chown uwb /dev/ttyATLAS01
@@ -93,11 +93,11 @@ chown uwb /dev/ttyATLAS37
 chown uwb /dev/ttyATLAS38
 chown uwb /dev/ttyATLAS39
 chown uwb /dev/ttyATLAS40
-# chown uwb /dev/ttyATLAS41
-# chown uwb /dev/ttyATLAS42
-# chown uwb /dev/ttyATLAS43
-# chown uwb /dev/ttyATLAS44
-# chown uwb /dev/ttyATLAS45
-# chown uwb /dev/ttyATLAS46
-# chown uwb /dev/ttyATLAS47
-# chown uwb /dev/ttyATLAS48
+chown uwb /dev/ttyATLAS41
+chown uwb /dev/ttyATLAS42
+chown uwb /dev/ttyATLAS43
+chown uwb /dev/ttyATLAS44
+chown uwb /dev/ttyATLAS45
+chown uwb /dev/ttyATLAS46
+chown uwb /dev/ttyATLAS47
+chown uwb /dev/ttyATLAS48
