@@ -1,34 +1,34 @@
 # Default configurations for tags
 fast:
-  cafe060043121032:
+  cafe060043121032: # 3
     enable: true
     sync_frequency: 14
     transmit_frequency: 6
     alias: '10-1F'
 
-  cafe060043042148:
+  cafe060043042148: # 0
     enable: true
     sync_frequency: 14
     transmit_frequency: 6
     alias: '10-1M'
 
-  cafe060043045445:
+  cafe060043045445: # 2
     enable: true
     sync_frequency: 14
     transmit_frequency: 6
-    alias: '10-2M'
+    alias: '2'
 
-  cafe060043045146:
+  cafe060043045146: # 1
     enable: true
     sync_frequency: 14
     transmit_frequency: 6
-    alias: '10-3M'
+    alias: '1'
 
-  cafe060043121448:
+  cafe060043121448: # 4
     enable: true
     sync_frequency: 14
     transmit_frequency: 6
-    alias: '10-4M'
+    alias: '10-1M'
 
   deca000000009640:
     enable: false
@@ -47,3 +47,4 @@ fast:
     sync_frequency: 14
     transmit_frequency: 6
     alias: 'PDOA-1'
+
