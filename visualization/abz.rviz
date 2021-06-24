@@ -9,9 +9,6 @@ Panels:
         - /Grid1
         - /Grid1/Offset1
         - /ABZ1
-        - /PointStamped3
-        - /PointStamped3/Status1
-        - /PointStamped4
       Splitter Ratio: 0.5527777671813965
     Tree Height: 874
   - Class: rviz/Selection
@@ -93,7 +90,7 @@ Visualization Manager:
       Enabled: true
       History Length: 1
       Name: PointStamped
-      Radius: 0.20000000298023224
+      Radius: 0.25
       Topic: /atlas/loc/cafe060043045445/point
       Unreliable: false
       Value: true
@@ -103,7 +100,7 @@ Visualization Manager:
       Enabled: true
       History Length: 1
       Name: PointStamped
-      Radius: 0.20000000298023224
+      Radius: 0.25
       Topic: /atlas/loc/cafe060043045146/point
       Unreliable: false
       Value: true
@@ -113,7 +110,7 @@ Visualization Manager:
       Enabled: true
       History Length: 1
       Name: PointStamped
-      Radius: 0.20000000298023224
+      Radius: 0.25
       Topic: /atlas/loc/cafe060043121032/point
       Unreliable: false
       Value: true
@@ -123,7 +120,7 @@ Visualization Manager:
       Enabled: true
       History Length: 1
       Name: PointStamped
-      Radius: 0.20000000298023224
+      Radius: 0.25
       Topic: /atlas/loc/cafe060043042148/point
       Unreliable: false
       Value: true
@@ -143,7 +140,7 @@ Visualization Manager:
       Enabled: true
       History Length: 1
       Name: PointStamped
-      Radius: 0.20000000298023224
+      Radius: 0.25
       Topic: /atlas/loc/cafe060043121448/point
       Unreliable: false
       Value: true
@@ -175,25 +172,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 22.69155502319336
+      Distance: 24.68787384033203
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 5.255684852600098
-        Y: 2.2771832942962646
-        Z: 2.9483039379119873
+        X: 7.3205461502075195
+        Y: 3.065483570098877
+        Z: 6.1234307289123535
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.5597981214523315
+      Pitch: 0.3597986698150635
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.006394863128662
+      Yaw: 4.331382751464844
     Saved:
       - Class: rviz/Orbit
         Distance: 10

@@ -16,13 +16,13 @@ fast:
     enable: true
     sync_frequency: 14
     transmit_frequency: 6
-    alias: '2'
+    alias: '10-2M'
 
   cafe060043045146: # 1
     enable: true
     sync_frequency: 14
     transmit_frequency: 6
-    alias: '1'
+    alias: '10-2F'
 
   cafe060043121448: # 4
     enable: true
